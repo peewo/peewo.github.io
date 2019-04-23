@@ -1,9 +1,12 @@
 #lol{
-opacity:0;
+opacity:0.1;
+transition:2s all;
+width:60px;
+align:center;
 }
 #lol:hover{
 opacity:1;
-transformation:rotate(180deg);
-transformation:rotate(360deg);
-transition:2s all;
+transform:rotate(180deg);
+transform:rotate(360deg);
+
 }
